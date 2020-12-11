@@ -14,7 +14,7 @@ class NavBar extends Component {
                     spy={true}
                     smooth={true}
                     offset={0}
-                    duration={500}>Main
+                    duration={500}><div className="main-button">Main</div>
                     </Link>
                     <Link
                     activeClass="active"
@@ -22,7 +22,7 @@ class NavBar extends Component {
                     spy={true}
                     smooth={true}
                     offset={0}
-                    duration={500}>About
+                    duration={500}><div className="about-button">About</div>
                     </Link>
                     <Link
                     activeClass="active"
@@ -30,7 +30,7 @@ class NavBar extends Component {
                     spy={true}
                     smooth={true}
                     offset={0}
-                    duration={500}>Contact
+                    duration={500}><div className="contact-button">Contact</div>
                     </Link>
                     
                     
