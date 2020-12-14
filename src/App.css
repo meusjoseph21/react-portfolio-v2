@@ -26,9 +26,18 @@
 
 .main-content {
   position: absolute;
-  outline: black 1px solid;
+  
   margin-top: 200px;
   text-align: center;
+
+}
+
+.main-secondary-content {
+  position: absolute;
+  
+  margin-top: 200px;
+  text-align: center;
+  margin-left: 644px;
 
 }
 
@@ -76,3 +85,34 @@
   background-size: cover;
 }
 
+
+.p-about {
+  margin-right: 200px;
+  font-family: 'Playfair Display', serif;
+  
+  color: white;
+  font-size: 50px;
+  animation: fadein 4s;
+
+  opacity: 1;
+  
+}
+
+.h1-about {
+
+  font-family: 'Playfair Display', serif;
+  font-size: 150px;
+  color: white
+
+
+}
+
+@keyframes fadein {
+  
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.col-6 {
+  outline: 1px black solid;
+}
