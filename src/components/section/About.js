@@ -9,7 +9,7 @@ class About extends Component {
       <div className="about-section" id="about">
         
         <ScrollAnimation animateIn="flipInY">
-            <h1>hello</h1>
+            <h1>gi</h1>
         </ScrollAnimation>
       </div>
     );

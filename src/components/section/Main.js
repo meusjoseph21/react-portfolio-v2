@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import ReactTypingEffect from "react-typing-effect";
+import ReactRoundedImage from "react-rounded-image";
+import photo from "./images/porto.png"
 
 
 class Main extends Component {
@@ -9,7 +11,7 @@ class Main extends Component {
       <div className="main-section" id="main">
         <div className="container-fluid">
           <div className="row">
-                    <div className=" main-content col-6">
+                    <div className=" main-content col-xs-12">
                     <ReactTypingEffect
                         text="Hello,"
                         className="h1-about"
@@ -17,9 +19,17 @@ class Main extends Component {
                     />
                     <br></br>
                     <p className="p-about">I'm Joey</p> 
+                   
+
                     </div>
-                    <div className= "col-6 main-secondary-content">Full Stack Developer</div>
-          </div>
+            </div>
+            <div className="row">
+            <div className= "col-xs-12 main-secondary-content">I am a Full Stack Developer from Denver Colorado. I strive to make intuitive, mobile friendly, sleek applications.</div>
+
+
+            </div>
+                   
+          
         </div>
       </div>
     );

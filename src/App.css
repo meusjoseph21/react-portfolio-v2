@@ -1,7 +1,7 @@
 .navbar {
-  position: fixed;
+  position: absolute;
   top: 0;
-  width: 100%;
+  margin-left: 40px;
   text-align: center;
   
   margin-top: 50px;
@@ -34,10 +34,11 @@
 
 .main-secondary-content {
   position: absolute;
-  
-  margin-top: 200px;
+
+  margin-top: 700px;
   text-align: center;
-  margin-left: 644px;
+  color: white
+ 
 
 }
 
@@ -87,7 +88,7 @@
 
 
 .p-about {
-  margin-right: 200px;
+  
   font-family: 'Playfair Display', serif;
   
   color: white;
@@ -113,6 +114,3 @@
   to {opacity: 1;}
 }
 
-.col-6 {
-  outline: 1px black solid;
-}
