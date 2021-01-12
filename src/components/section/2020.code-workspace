@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"path": "../../../../../../classwork/projects/project-three/project3/client"
+		},
+		{
+			"path": "../../../../../../classwork/projects/project-three/project3/controller"
+		},
+		{
+			"path": "../../../../../../classwork/projects/project-three/project3/models"
+		},
+		{
+			"path": "../../../../../../classwork/projects/project-three/project3/node_modules"
+		},
+		{
+			"path": "../../../../../../classwork/projects/project-three/project3/routes"
+		},
+		{
+			"path": "../../../../../../classwork/projects/project-three/project3/scripts"
+		}
+	]
+}
