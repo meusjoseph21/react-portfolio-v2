@@ -18,11 +18,19 @@ class NavBar extends Component {
                     </Link>
                     <Link
                     activeClass="active"
+                    to="port"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}><div className="port-button">About</div>
+                    </Link>
+                    <Link
+                    activeClass="active"
                     to="about"
                     spy={true}
                     smooth={true}
                     offset={0}
-                    duration={500}><div className="about-button">About</div>
+                    duration={500}><div className="about-button">Portfolio</div>
                     </Link>
                     <Link
                     activeClass="active"

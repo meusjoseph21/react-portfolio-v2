@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactTypingEffect from "react-typing-effect";
-import {Image} from "react-bootstrap"
+import {Image, Container, Row, Col} from "react-bootstrap"
 import Joey from "./images/porto.png"
 
 
@@ -9,7 +9,27 @@ class Main extends Component {
   render() {
     return (
       <div className="main-section" id="main">
-        <div className="container-fluid">
+        <Container>
+          <Row>
+            <Col>
+            <div className="main-about">
+            <ReactTypingEffect
+                        text="Hello,"
+                        className="h1-about"
+                        typingDelay="3000ms"
+                    />
+                    <br></br>
+                    <p className="p-about">I'm Joey</p>
+                    
+                    <Image src={Joey} rounded></Image> 
+            </div>
+            </Col>
+            
+          </Row>
+
+        </Container>
+        
+        {/* <div className="container-fluid">
           <div className="row">
                     <div className=" main-content col-xs-12">
                     <ReactTypingEffect
@@ -35,7 +55,7 @@ class Main extends Component {
             </div>
                    
           
-        </div>
+        </div> */}
       </div>
     );
   }
