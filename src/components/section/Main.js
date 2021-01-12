@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactTypingEffect from "react-typing-effect";
-import ReactRoundedImage from "react-rounded-image";
-import photo from "./images/porto.png"
+import {Image} from "react-bootstrap"
+import Joey from "./images/porto.png"
 
 
 class Main extends Component {
@@ -18,7 +18,12 @@ class Main extends Component {
                         typingDelay="3000ms"
                     />
                     <br></br>
-                    <p className="p-about">I'm Joey</p> 
+                    <p className="p-about">I'm Joey</p>
+                    
+                    <Image src={Joey} rounded></Image> 
+
+                 
+                    
                    
 
                     </div>
