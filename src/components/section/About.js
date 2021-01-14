@@ -18,15 +18,22 @@ class About extends Component {
       <div className="about-section" id="about">
         <Container>
           <Row>
-            <Col>
+            <Col xs={12} md={6}>
             <Carousel prevLabel={null} nextLabel={null}>
           <Carousel.Item interval={4000}>
+          
             <img
               className="height-carousel"
               src={Pandemic}
               alt="First slide"
             />
+           
+            
             <Carousel.Caption>
+            <div className="carousel-caption">
+              <h3>Slide 1</h3>
+              <p>Caption</p>
+            </div>
               
               <Button variant="outline-primary" href="https://pandemic-tracking.herokuapp.com/" target="_blank">Website</Button>
               <Button variant="outline-danger" className="button-move" href="https://github.com/meusjoseph21/pandemic-tracker-sans-splash" target="_blank">Github</Button>

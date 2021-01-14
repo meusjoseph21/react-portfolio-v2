@@ -10,9 +10,6 @@ import { SiPostman } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
 import { DiMaterializecss } from "react-icons/di";
 import { DiNpm } from "react-icons/di";
-import Pdf from "./pdf/joeyresume.pdf";
-import { Document, Page, pdfjs } from "react-pdf";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 
@@ -27,26 +24,7 @@ class Portfolio extends Component {
             <Col xs={12} md={6}>
               
               <div className="secondary-main">
-              <>
-                <Accordion>
-                  <Accordion.Toggle
-                    as={Button}
-                    variant="outline-dark"
-                    className="resumeBtn"
-                
-                    eventKey="0"
-                  >
-                    View Resume
-                  </Accordion.Toggle>
-                  <Accordion.Collapse eventKey="0">
-                    <div className="resume">
-                      <Document file={Pdf}>
-                        <Page pageNumber={1} />
-                      </Document>
-                    </div>
-                  </Accordion.Collapse>
-                </Accordion>
-              </>
+              
               <div className="hider">
               <p>
                   I am a Full Stack Developer from Denver Colorado. I strive to
