@@ -21,17 +21,17 @@ class Contact extends Component {
               <p><span className="email">Email Me: </span> meusjoseph21@gmail.com</p>
               <p className="or">Or</p>
               <p>Get In Touch On My Other Socials:</p>
-              <a href="https://www.linkedin.com/in/joseph-meus-4b8b071b4/" target="_blank">
+              <a href="https://www.linkedin.com/in/joseph-meus-4b8b071b4/" target="_blank" rel="noreferrer">
               <AiFillLinkedin size="60" color="#242222"/>
               </a>
-              <a href="https://github.com/meusjoseph21" target="_blank">
+              <a href="https://github.com/meusjoseph21" target="_blank" rel="noreferrer">
               <FaGithub size="60" color="#242222"/>
               </a>
             
-             <a href="https://open.spotify.com/user/j.meus?si=Yj9omGdrQL-CYy2OpD-FfA" target="_blank">
+             <a href="https://open.spotify.com/user/j.meus?si=Yj9omGdrQL-CYy2OpD-FfA" target="_blank" rel="noreferrer">
              <FaSpotify size="60" color="#242222"/>
              </a>
-             <a href="https://www.facebook.com/jmeus1/" target="_blank">
+             <a href="https://www.facebook.com/jmeus1/" target="_blank" rel="noreferrer">
              <AiFillFacebook size="60" color="#242222"/>
              </a>
               
