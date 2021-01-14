@@ -19,9 +19,13 @@ class Main extends Component {
                         typingDelay="3000ms"
                     />
                     <br></br>
-                    <p className="p-about">I'm Joey</p>
+                    <p className="p-about">I'm Joey Meus</p>
                     
-                    <Image src={Joey} rounded></Image> 
+                  
+                    <Image src={Joey} rounded className="boxshadow"></Image>
+
+
+                  
             </div>
             </Col>
             

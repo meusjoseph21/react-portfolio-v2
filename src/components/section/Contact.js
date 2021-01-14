@@ -68,6 +68,7 @@ class Contact extends Component {
             <Col xs={12} md={3}></Col>
           </Row>
         </Container>
+        <footer className="copyright">Joseph Meus 2021 <span>&#169;</span></footer>
       </div>
     );
   }
