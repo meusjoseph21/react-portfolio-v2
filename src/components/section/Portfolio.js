@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Accordion, Button } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import { FaReact } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+
 import "animate.css/animate.min.css";
-import FlippingCard from "react-ui-cards";
+
 import { Carousel, Accordion, Card,Container, Row, Col, Button } from "react-bootstrap";
 import Burger from "./images/burger.jpg";
 import Pandemic from "./images/pandemic.jpg";
