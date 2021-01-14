@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Accordion, Container, Row, Col, Button } from "react-bootstrap";
-import {AiFillLinkedin} from "react-icons/ai"
-import {FaGithub} from "react-icons/fa"
-import {FaSpotify} from "react-icons/fa"
-import {AiFillFacebook} from "react-icons/ai"
+// import {AiFillLinkedin} from "react-icons/ai"
+// import {FaGithub} from "react-icons/fa"
+// import {FaSpotify} from "react-icons/fa"
+// import {AiFillFacebook} from "react-icons/ai"
 import Pdf from "./pdf/joeyresume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -21,7 +21,7 @@ class Contact extends Component {
               <p><span className="email">Email Me: </span> meusjoseph21@gmail.com</p>
               <p className="or">Or</p>
               <p>Get In Touch On My Other Socials:</p>
-              <a href="https://www.linkedin.com/in/joseph-meus-4b8b071b4/" target="_blank" rel="noreferrer">
+              {/* <a href="https://www.linkedin.com/in/joseph-meus-4b8b071b4/" target="_blank" rel="noreferrer">
               <AiFillLinkedin size="60" color="#242222"/>
               </a>
               <a href="https://github.com/meusjoseph21" target="_blank" rel="noreferrer">
@@ -34,7 +34,7 @@ class Contact extends Component {
              <a href="https://www.facebook.com/jmeus1/" target="_blank" rel="noreferrer">
              <AiFillFacebook size="60" color="#242222"/>
              </a>
-              
+               */}
 
 
               </div>
